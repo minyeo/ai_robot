@@ -1,0 +1,29 @@
+[0.432s] Invoking command in '/home/piai/robot_ws/build/face_pkg': PYTHONPATH=/home/piai/robot_ws/install/face_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/face_pkg --editable --build-directory /home/piai/robot_ws/build/face_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/face_pkg
+[0.786s] /home/piai/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.786s]   % (opt, underscore_opt)
+[0.787s] /home/piai/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.787s]   % (opt, underscore_opt)
+[0.861s] running develop
+[0.861s] /home/piai/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.861s]   EasyInstallDeprecationWarning,
+[0.862s] /home/piai/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.863s]   setuptools.SetuptoolsDeprecationWarning,
+[0.912s] /home/piai/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[0.912s]   PkgResourcesDeprecationWarning,
+[1.001s] running egg_info
+[1.001s] writing face_pkg.egg-info/PKG-INFO
+[1.001s] writing dependency_links to face_pkg.egg-info/dependency_links.txt
+[1.001s] writing entry points to face_pkg.egg-info/entry_points.txt
+[1.002s] writing requirements to face_pkg.egg-info/requires.txt
+[1.002s] writing top-level names to face_pkg.egg-info/top_level.txt
+[1.005s] reading manifest file 'face_pkg.egg-info/SOURCES.txt'
+[1.006s] writing manifest file 'face_pkg.egg-info/SOURCES.txt'
+[1.007s] running build_ext
+[1.007s] Creating /home/piai/robot_ws/install/face_pkg/lib/python3.6/site-packages/face-pkg.egg-link (link to .)
+[1.008s] Installing face_publisher script to /home/piai/robot_ws/install/face_pkg/lib/face_pkg
+[1.008s] Installing face_start_subscriber script to /home/piai/robot_ws/install/face_pkg/lib/face_pkg
+[1.009s] Installing face_subscriber script to /home/piai/robot_ws/install/face_pkg/lib/face_pkg
+[1.009s] 
+[1.009s] Installed /home/piai/robot_ws/build/face_pkg
+[1.009s] running install_data
+[1.048s] Invoked command in '/home/piai/robot_ws/build/face_pkg' returned '0': PYTHONPATH=/home/piai/robot_ws/install/face_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/face_pkg --editable --build-directory /home/piai/robot_ws/build/face_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/face_pkg

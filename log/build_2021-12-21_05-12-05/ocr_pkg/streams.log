@@ -1,0 +1,28 @@
+[1.142s] Invoking command in '/home/piai/robot_ws/build/ocr_pkg': PYTHONPATH=/home/piai/robot_ws/install/ocr_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/ocr_pkg --editable --build-directory /home/piai/robot_ws/build/ocr_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/ocr_pkg
+[1.584s] /home/piai/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.584s]   % (opt, underscore_opt)
+[1.584s] /home/piai/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.585s]   % (opt, underscore_opt)
+[1.667s] running develop
+[1.667s] /home/piai/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.667s]   EasyInstallDeprecationWarning,
+[1.669s] /home/piai/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.669s]   setuptools.SetuptoolsDeprecationWarning,
+[1.722s] /home/piai/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[1.723s]   PkgResourcesDeprecationWarning,
+[1.826s] running egg_info
+[1.826s] writing ocr_pkg.egg-info/PKG-INFO
+[1.827s] writing dependency_links to ocr_pkg.egg-info/dependency_links.txt
+[1.827s] writing entry points to ocr_pkg.egg-info/entry_points.txt
+[1.828s] writing requirements to ocr_pkg.egg-info/requires.txt
+[1.828s] writing top-level names to ocr_pkg.egg-info/top_level.txt
+[1.831s] reading manifest file 'ocr_pkg.egg-info/SOURCES.txt'
+[1.833s] writing manifest file 'ocr_pkg.egg-info/SOURCES.txt'
+[1.835s] running build_ext
+[1.835s] Creating /home/piai/robot_ws/install/ocr_pkg/lib/python3.6/site-packages/ocr-pkg.egg-link (link to .)
+[1.836s] Installing ocr_publisher script to /home/piai/robot_ws/install/ocr_pkg/lib/ocr_pkg
+[1.836s] Installing tts_subscriber script to /home/piai/robot_ws/install/ocr_pkg/lib/ocr_pkg
+[1.836s] 
+[1.836s] Installed /home/piai/robot_ws/build/ocr_pkg
+[1.836s] running install_data
+[1.883s] Invoked command in '/home/piai/robot_ws/build/ocr_pkg' returned '0': PYTHONPATH=/home/piai/robot_ws/install/ocr_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/ocr_pkg --editable --build-directory /home/piai/robot_ws/build/ocr_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/ocr_pkg

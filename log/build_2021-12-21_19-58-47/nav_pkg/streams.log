@@ -1,0 +1,35 @@
+[1.345s] Invoking command in '/home/piai/robot_ws_last/build/nav_pkg': PYTHONPATH=/home/piai/robot_ws_last/install/nav_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws_last/install/nav_pkg --editable --build-directory /home/piai/robot_ws_last/build/nav_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws_last/install/nav_pkg
+[1.652s] /home/piai/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.652s]   % (opt, underscore_opt)
+[1.653s] /home/piai/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.653s]   % (opt, underscore_opt)
+[1.710s] running develop
+[1.711s] /home/piai/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.712s]   EasyInstallDeprecationWarning,
+[1.712s] /home/piai/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.713s]   setuptools.SetuptoolsDeprecationWarning,
+[1.763s] /home/piai/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[1.763s]   PkgResourcesDeprecationWarning,
+[1.856s] running egg_info
+[1.856s] creating nav_pkg.egg-info
+[1.857s] writing nav_pkg.egg-info/PKG-INFO
+[1.857s] writing dependency_links to nav_pkg.egg-info/dependency_links.txt
+[1.857s] writing entry points to nav_pkg.egg-info/entry_points.txt
+[1.857s] writing requirements to nav_pkg.egg-info/requires.txt
+[1.857s] writing top-level names to nav_pkg.egg-info/top_level.txt
+[1.859s] writing manifest file 'nav_pkg.egg-info/SOURCES.txt'
+[1.860s] reading manifest file 'nav_pkg.egg-info/SOURCES.txt'
+[1.861s] writing manifest file 'nav_pkg.egg-info/SOURCES.txt'
+[1.863s] running build_ext
+[1.864s] Creating /home/piai/robot_ws_last/install/nav_pkg/lib/python3.6/site-packages/nav-pkg.egg-link (link to .)
+[1.865s] Installing face_start_subscriber script to /home/piai/robot_ws_last/install/nav_pkg/lib/nav_pkg
+[1.865s] Installing nav_arrive_publisher script to /home/piai/robot_ws_last/install/nav_pkg/lib/nav_pkg
+[1.865s] 
+[1.866s] Installed /home/piai/robot_ws_last/build/nav_pkg
+[1.866s] running install_data
+[1.867s] creating /home/piai/robot_ws_last/install/nav_pkg/share/ament_index
+[1.867s] creating /home/piai/robot_ws_last/install/nav_pkg/share/ament_index/resource_index
+[1.868s] creating /home/piai/robot_ws_last/install/nav_pkg/share/ament_index/resource_index/packages
+[1.869s] copying resource/nav_pkg -> /home/piai/robot_ws_last/install/nav_pkg/share/ament_index/resource_index/packages
+[1.870s] copying package.xml -> /home/piai/robot_ws_last/install/nav_pkg/share/nav_pkg
+[1.932s] Invoked command in '/home/piai/robot_ws_last/build/nav_pkg' returned '0': PYTHONPATH=/home/piai/robot_ws_last/install/nav_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws_last/install/nav_pkg --editable --build-directory /home/piai/robot_ws_last/build/nav_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws_last/install/nav_pkg

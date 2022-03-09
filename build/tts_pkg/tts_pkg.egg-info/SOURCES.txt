@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/tts_pkg
+tts_pkg/__init__.py
+tts_pkg/tts_subscriber.py
+tts_pkg.egg-info/PKG-INFO
+tts_pkg.egg-info/SOURCES.txt
+tts_pkg.egg-info/dependency_links.txt
+tts_pkg.egg-info/entry_points.txt
+tts_pkg.egg-info/requires.txt
+tts_pkg.egg-info/top_level.txt
+tts_pkg.egg-info/zip-safe

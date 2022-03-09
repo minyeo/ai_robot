@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tts-pkg
+Version: 0.0.2
+Summary: ROS 2 rclpy basic package for the ROS 2 seminar
+Home-page: UNKNOWN
+Author: Mikael Arguedas, Pyo
+Author-email: mikael@osrfoundation.org, pyo@robotis.com
+Maintainer: Pyo
+Maintainer-email: pyo@robotis.com
+License: Apache License, Version 2.0
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

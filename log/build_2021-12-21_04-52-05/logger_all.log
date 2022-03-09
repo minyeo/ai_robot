@@ -1,0 +1,240 @@
+[0.355s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.356s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc774e72fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc774e72fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc77472a630>)
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.362s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/piai/robot_ws'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/face_pkg) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/face_pkg' with type 'ros.ament_python' and name 'face_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/ocr_pkg) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ocr_pkg' with type 'ros.ament_python' and name 'ocr_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/tts_pkg': Error(s) in package 'src/tts_pkg/package.xml':
+The manifest contains invalid XML:
+XML or text declaration not at start of entity: line 2, column 0
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extension 'python'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/tts_pkg' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/tts_pkg) by extension 'python_setup_py'
+[0.789s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tts_pkg' with type 'python' and name 'tts_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.834s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'cmake_target' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'face_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.835s] DEBUG:colcon.colcon_core.verb:Building package 'face_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/piai/robot_ws/build/face_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/piai/robot_ws/install/face_pkg', 'merge_install': False, 'path': '/home/piai/robot_ws/src/face_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'cmake_target' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'ocr_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.839s] DEBUG:colcon.colcon_core.verb:Building package 'ocr_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/piai/robot_ws/build/ocr_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/piai/robot_ws/install/ocr_pkg', 'merge_install': False, 'path': '/home/piai/robot_ws/src/ocr_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'cmake_target' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'tts_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.843s] DEBUG:colcon.colcon_core.verb:Building package 'tts_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/piai/robot_ws/build/tts_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/piai/robot_ws/install/tts_pkg', 'merge_install': False, 'path': '/home/piai/robot_ws/src/tts_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.843s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.847s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/piai/robot_ws/src/face_pkg' with build type 'ament_python'
+[0.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_pkg', 'ament_prefix_path')
+[0.853s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/face_pkg/share/face_pkg/hook/ament_prefix_path.ps1'
+[0.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/piai/robot_ws/install/face_pkg/share/face_pkg/hook/ament_prefix_path.dsv'
+[0.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/face_pkg/share/face_pkg/hook/ament_prefix_path.sh'
+[0.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.859s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/piai/robot_ws/install/ocr_tts_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.859s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/piai/robot_ws/install/first_tts_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.859s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.862s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/piai/robot_ws/src/ocr_pkg' with build type 'ament_python'
+[0.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('ocr_pkg', 'ament_prefix_path')
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/hook/ament_prefix_path.ps1'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/hook/ament_prefix_path.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/hook/ament_prefix_path.sh'
+[0.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.869s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[0.873s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/piai/robot_ws/src/tts_pkg'
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.878s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.213s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/piai/robot_ws/src/face_pkg'
+[1.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.220s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.611s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/piai/robot_ws/src/ocr_pkg'
+[1.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.621s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[1.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/piai/robot_ws/build/tts_pkg': PYTHONPATH=/home/piai/robot_ws/install/tts_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/tts_pkg --editable --build-directory /home/piai/robot_ws/build/tts_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/tts_pkg
+[1.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/piai/robot_ws/build/face_pkg': PYTHONPATH=/home/piai/robot_ws/install/face_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/face_pkg --editable --build-directory /home/piai/robot_ws/build/face_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/face_pkg
+[2.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/piai/robot_ws/build/ocr_pkg': PYTHONPATH=/home/piai/robot_ws/install/ocr_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/ocr_pkg --editable --build-directory /home/piai/robot_ws/build/ocr_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/ocr_pkg
+[2.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_pkg', 'pythonpath_develop')
+[2.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/build/face_pkg/share/face_pkg/hook/pythonpath_develop.ps1'
+[2.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/piai/robot_ws/build/face_pkg' returned '0': PYTHONPATH=/home/piai/robot_ws/install/face_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/face_pkg --editable --build-directory /home/piai/robot_ws/build/face_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/face_pkg
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/piai/robot_ws/build/face_pkg/share/face_pkg/hook/pythonpath_develop.dsv'
+[2.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/build/face_pkg/share/face_pkg/hook/pythonpath_develop.sh'
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/face_pkg' for CMake module files
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/face_pkg' for CMake config files
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/face_pkg/lib'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/face_pkg/bin'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/face_pkg/lib/pkgconfig/face_pkg.pc'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/face_pkg/lib/python3.6/site-packages'
+[2.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('face_pkg', 'pythonpath')
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/face_pkg/share/face_pkg/hook/pythonpath.ps1'
+[2.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/piai/robot_ws/install/face_pkg/share/face_pkg/hook/pythonpath.dsv'
+[2.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/face_pkg/share/face_pkg/hook/pythonpath.sh'
+[2.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(face_pkg)
+[2.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/face_pkg/share/face_pkg/package.ps1'
+[2.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/piai/robot_ws/install/face_pkg/share/face_pkg/package.dsv'
+[2.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/face_pkg/share/face_pkg/package.sh'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/face_pkg/share/face_pkg/package.bash'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/face_pkg/share/face_pkg/package.zsh'
+[2.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/piai/robot_ws/install/face_pkg/share/colcon-core/packages/face_pkg)
+[2.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('tts_pkg', 'pythonpath_develop')
+[2.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/build/tts_pkg/share/tts_pkg/hook/pythonpath_develop.ps1'
+[2.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/piai/robot_ws/build/tts_pkg' returned '0': PYTHONPATH=/home/piai/robot_ws/install/tts_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/tts_pkg --editable --build-directory /home/piai/robot_ws/build/tts_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/tts_pkg
+[2.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/piai/robot_ws/build/tts_pkg/share/tts_pkg/hook/pythonpath_develop.dsv'
+[2.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/build/tts_pkg/share/tts_pkg/hook/pythonpath_develop.sh'
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/tts_pkg' for CMake module files
+[2.606s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/tts_pkg' for CMake config files
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/tts_pkg/lib'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/tts_pkg/bin'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/tts_pkg/lib/pkgconfig/tts_pkg.pc'
+[2.608s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/tts_pkg/lib/python3.6/site-packages'
+[2.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('tts_pkg', 'pythonpath')
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/tts_pkg/share/tts_pkg/hook/pythonpath.ps1'
+[2.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/piai/robot_ws/install/tts_pkg/share/tts_pkg/hook/pythonpath.dsv'
+[2.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/tts_pkg/share/tts_pkg/hook/pythonpath.sh'
+[2.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tts_pkg)
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/tts_pkg/share/tts_pkg/package.ps1'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/piai/robot_ws/install/tts_pkg/share/tts_pkg/package.dsv'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/tts_pkg/share/tts_pkg/package.sh'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/tts_pkg/share/tts_pkg/package.bash'
+[2.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/tts_pkg/share/tts_pkg/package.zsh'
+[2.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/piai/robot_ws/install/tts_pkg/share/colcon-core/packages/tts_pkg)
+[2.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('ocr_pkg', 'pythonpath_develop')
+[2.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/build/ocr_pkg/share/ocr_pkg/hook/pythonpath_develop.ps1'
+[2.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/piai/robot_ws/build/ocr_pkg' returned '0': PYTHONPATH=/home/piai/robot_ws/install/ocr_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/ocr_pkg --editable --build-directory /home/piai/robot_ws/build/ocr_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/ocr_pkg
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/piai/robot_ws/build/ocr_pkg/share/ocr_pkg/hook/pythonpath_develop.dsv'
+[2.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/build/ocr_pkg/share/ocr_pkg/hook/pythonpath_develop.sh'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/ocr_pkg' for CMake module files
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/ocr_pkg' for CMake config files
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/ocr_pkg/lib'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/ocr_pkg/bin'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/ocr_pkg/lib/pkgconfig/ocr_pkg.pc'
+[2.679s] Level 1:colcon.colcon_core.environment:checking '/home/piai/robot_ws/install/ocr_pkg/lib/python3.6/site-packages'
+[2.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('ocr_pkg', 'pythonpath')
+[2.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/hook/pythonpath.ps1'
+[2.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/hook/pythonpath.dsv'
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/hook/pythonpath.sh'
+[2.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ocr_pkg)
+[2.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/package.ps1'
+[2.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/package.dsv'
+[2.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/package.sh'
+[2.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/package.bash'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/piai/robot_ws/install/ocr_pkg/share/ocr_pkg/package.zsh'
+[2.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/piai/robot_ws/install/ocr_pkg/share/colcon-core/packages/ocr_pkg)
+[2.693s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.694s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.714s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.714s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.714s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.719s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.722s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/piai/robot_ws/install/local_setup.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/piai/robot_ws/install/_local_setup_util_ps1.py'
+[2.732s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/piai/robot_ws/install/setup.ps1'
+[2.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/piai/robot_ws/install/local_setup.sh'
+[2.741s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/piai/robot_ws/install/_local_setup_util_sh.py'
+[2.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/piai/robot_ws/install/setup.sh'
+[2.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/piai/robot_ws/install/local_setup.bash'
+[2.748s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/piai/robot_ws/install/setup.bash'
+[2.751s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/piai/robot_ws/install/local_setup.zsh'
+[2.752s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/piai/robot_ws/install/setup.zsh'

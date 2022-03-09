@@ -1,0 +1,180 @@
+{
+    "version": "V2",
+    "requestId": "e9580240-dec4-4d9e-b683-93cd58c37b8a",
+    "timestamp": 1640013488470,
+    "images": [
+        {
+            "uid": "624b96c2625049bf819181bc31a32666",
+            "name": "demo",
+            "inferResult": "SUCCESS",
+            "message": "SUCCESS",
+            "matchedTemplate": {
+                "id": 12333,
+                "name": "Post office waybill"
+            },
+            "validationResult": {
+                "result": "NO_REQUESTED"
+            },
+            "title": {
+                "name": "post office mark",
+                "boundingPoly": {
+                    "vertices": [
+                        {
+                            "x": 47.38031,
+                            "y": 15.61072
+                        },
+                        {
+                            "x": 115.972534,
+                            "y": 17.200348
+                        },
+                        {
+                            "x": 115.71932,
+                            "y": 37.386467
+                        },
+                        {
+                            "x": 46.958633,
+                            "y": 36.00689
+                        }
+                    ]
+                },
+                "inferText": "",
+                "inferConfidence": 0.0
+            },
+            "fields": [
+                {
+                    "name": "name",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 217.0,
+                                "y": 183.0
+                            },
+                            {
+                                "x": 282.0,
+                                "y": 183.0
+                            },
+                            {
+                                "x": 282.0,
+                                "y": 203.0
+                            },
+                            {
+                                "x": 217.0,
+                                "y": 203.0
+                            }
+                        ]
+                    },
+                    "inferText": "조 유경",
+                    "inferConfidence": 0.91775,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 217.0,
+                                        "y": 183.0
+                                    },
+                                    {
+                                        "x": 238.0,
+                                        "y": 183.0
+                                    },
+                                    {
+                                        "x": 238.0,
+                                        "y": 203.0
+                                    },
+                                    {
+                                        "x": 217.0,
+                                        "y": 203.0
+                                    }
+                                ]
+                            },
+                            "inferText": "조",
+                            "inferConfidence": 0.9954,
+                            "lineBreak": false
+                        },
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 239.0,
+                                        "y": 183.0
+                                    },
+                                    {
+                                        "x": 282.0,
+                                        "y": 183.0
+                                    },
+                                    {
+                                        "x": 282.0,
+                                        "y": 203.0
+                                    },
+                                    {
+                                        "x": 239.0,
+                                        "y": 203.0
+                                    }
+                                ]
+                            },
+                            "inferText": "유경",
+                            "inferConfidence": 0.8401,
+                            "lineBreak": false
+                        }
+                    ]
+                },
+                {
+                    "name": "product",
+                    "valueType": "ALL",
+                    "boundingPoly": {
+                        "vertices": [
+                            {
+                                "x": 91.0,
+                                "y": 199.0
+                            },
+                            {
+                                "x": 145.0,
+                                "y": 199.0
+                            },
+                            {
+                                "x": 145.0,
+                                "y": 209.0
+                            },
+                            {
+                                "x": 91.0,
+                                "y": 209.0
+                            }
+                        ]
+                    },
+                    "inferText": "시제품 샘플",
+                    "inferConfidence": 0.9995,
+                    "type": "NORMAL",
+                    "subFields": [
+                        {
+                            "boundingPoly": {
+                                "vertices": [
+                                    {
+                                        "x": 91.0,
+                                        "y": 199.0
+                                    },
+                                    {
+                                        "x": 145.0,
+                                        "y": 199.0
+                                    },
+                                    {
+                                        "x": 145.0,
+                                        "y": 209.0
+                                    },
+                                    {
+                                        "x": 91.0,
+                                        "y": 209.0
+                                    }
+                                ]
+                            },
+                            "inferText": "시제품 샘플",
+                            "inferConfidence": 0.9995,
+                            "lineBreak": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

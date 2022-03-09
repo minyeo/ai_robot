@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+ocr_pkg/__init__.py
+ocr_pkg/ocr_publisher.py
+ocr_pkg.egg-info/PKG-INFO
+ocr_pkg.egg-info/SOURCES.txt
+ocr_pkg.egg-info/dependency_links.txt
+ocr_pkg.egg-info/entry_points.txt
+ocr_pkg.egg-info/requires.txt
+ocr_pkg.egg-info/top_level.txt
+ocr_pkg.egg-info/zip-safe
+resource/ocr_pkg

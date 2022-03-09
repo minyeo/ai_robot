@@ -1,0 +1,4 @@
+[console_scripts]
+face_start_subscriber = face_pkg.face_start_subscriber:main
+nav_arrive_publisher = nav_pkg.nav_arrive_publisher:main
+

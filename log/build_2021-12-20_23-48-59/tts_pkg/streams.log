@@ -1,0 +1,28 @@
+[0.425s] Invoking command in '/home/piai/robot_ws/build/tts_pkg': PYTHONPATH=/home/piai/robot_ws/install/tts_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/tts_pkg --editable --build-directory /home/piai/robot_ws/build/tts_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/tts_pkg
+[0.701s] /home/piai/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.701s]   % (opt, underscore_opt)
+[0.701s] /home/piai/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[0.701s]   % (opt, underscore_opt)
+[0.754s] running develop
+[0.754s] /home/piai/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.754s]   EasyInstallDeprecationWarning,
+[0.755s] /home/piai/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.755s]   setuptools.SetuptoolsDeprecationWarning,
+[0.804s] /home/piai/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[0.804s]   PkgResourcesDeprecationWarning,
+[0.894s] running egg_info
+[0.894s] writing tts_pkg.egg-info/PKG-INFO
+[0.894s] writing dependency_links to tts_pkg.egg-info/dependency_links.txt
+[0.894s] writing entry points to tts_pkg.egg-info/entry_points.txt
+[0.895s] writing requirements to tts_pkg.egg-info/requires.txt
+[0.895s] writing top-level names to tts_pkg.egg-info/top_level.txt
+[0.898s] reading manifest file 'tts_pkg.egg-info/SOURCES.txt'
+[0.899s] writing manifest file 'tts_pkg.egg-info/SOURCES.txt'
+[0.901s] running build_ext
+[0.901s] Creating /home/piai/robot_ws/install/tts_pkg/lib/python3.6/site-packages/tts-pkg.egg-link (link to .)
+[0.902s] Installing ocr_publisher script to /home/piai/robot_ws/install/tts_pkg/lib/tts_pkg
+[0.903s] Installing tts_subscriber script to /home/piai/robot_ws/install/tts_pkg/lib/tts_pkg
+[0.903s] 
+[0.903s] Installed /home/piai/robot_ws/build/tts_pkg
+[0.903s] running install_data
+[0.942s] Invoked command in '/home/piai/robot_ws/build/tts_pkg' returned '0': PYTHONPATH=/home/piai/robot_ws/install/tts_pkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/piai/robot_ws/install/tts_pkg --editable --build-directory /home/piai/robot_ws/build/tts_pkg/build --no-deps install_data --install-dir /home/piai/robot_ws/install/tts_pkg

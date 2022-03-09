@@ -1,0 +1,4 @@
+[console_scripts]
+ocr_publisher = ocr_pkg.ocr_publisher:main
+tts_subscriber = tts_pkg.tts_subscriber:main
+

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+face_pkg/__init__.py
+face_pkg/face_subscriber.py
+face_pkg.egg-info/PKG-INFO
+face_pkg.egg-info/SOURCES.txt
+face_pkg.egg-info/dependency_links.txt
+face_pkg.egg-info/entry_points.txt
+face_pkg.egg-info/requires.txt
+face_pkg.egg-info/top_level.txt
+face_pkg.egg-info/zip-safe
+resource/face_pkg
