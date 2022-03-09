@@ -7,3 +7,7 @@ https://velog.io/@dumok_
 [A1조_AI프로젝트_최종발표본_완성.pdf](https://github.com/minyeo/posco/files/8214814/A1._AI._._.pdf)  
 
 [A1조_AI프로젝트_결과보고서.pdf](https://github.com/minyeo/posco/files/8214817/A1._AI._.pdf)
+
+- 얼굴인식 기능 구현 
+- ROS2 이기종 시스템 연동 
+- 네이버 OCR, TTS API 서비스 사용 
